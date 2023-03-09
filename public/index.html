@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,33 +12,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="bg-gray-100">
-  <div class="h-[50vh] text-center text-slate-200 flex bg-fixed bg-cover bg-bottom" style="background-image: url(img/main-bg.jpg);">
-    <div class="w-full h-full m-auto backdrop-blur-md text-center bg-slate-900/40 flex">
-      <div class="m-auto">
-        <h1 class="text-5xl 2xl:text-8xl lg:text-6xl font-semibold font-pacifico"><span class="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent px-5">Faris Syahzani</span></h1>
-      <p class="font-inter font-light  text-lg 2xl:text-3xl lg:text-xl mt-8 2xl:mt-11 mb-5 px-5">Student at SMAN 1 Kota Bekasi | Programmer</p>
-      <div class="mx-auto w-52 flex items-center justify-between ">
-        <a href="https://instagram.com/farisyahzani?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa fa-instagram hover:scale-110 transition cursor-pointer" style="font-size:25px "></i></a>
-        <a href="https://www.youtube.com/channel/UC9G2DW5fUCyVje-57kVxHJw" target="_blank"><i class="fa fa-youtube-play hover:scale-110 transition cursor-pointer" style="font-size:25px "></i></a>
-        <a href="https://github.com/farisyahz" target="_blank"><i class="fa fa-github hover:scale-110 transition cursor-pointer" style="font-size:25px "></i></a>
-        <a href="mailto:farisyahzani6@gmail.com" alt="email" ><i class="fa fa-envelope hover:scale-110 transition cursor-pointer" style="font-size:25px" ></i></a>
-      </div>
-      </div>
-      
-    </div>
-  </div>
 
-  <nav class="mb-10 " >
-    <ul class="flex justify-around 2xl:w-[500px] w-72 mx-auto h-auto 2xl:font-bold font-semibold cursor-pointer">
-      <a class="inline-block w-1/3 2xl:py-5 py-3 border-b-4 border-b-slate-900 transition active:bg-slate-800 hover:bg-slate-200 active:text-white" href="index.html"><li class="w-full h-full text-inter 2xl:text-lg text-sm text-center ">HOME</li></a>
-      <a class="inline-block w-1/3 2xl:py-5 py-3 border-b-4  transition active:bg-slate-800 hover:bg-slate-200 active:text-white" href="about.html"><li class="w-full h-full text-inter 2xl:text-lg  text-sm text-center ">ABOUT</li></a>
-      <a class="inline-block w-1/3 2xl:py-5 py-3 border-b-4 transition active:bg-slate-800 hover:bg-slate-200 hover:cursor-not-allowed active:text-white" href="project.html"><li class="w-full h-full text-inter 2xl:text-lg text-sm text-center ">PROJECT</li></a>
+  <nav class=" bg-slate-900 lg:flex md:flex sm:block lg:justify-between md:justify-between lg:px-7 md:px-7 w-full lg:fixed md:fixed static top-0 z-10">
+    <a class="block my-auto text-center py-3" href="index.html">
+      <h2 class=" font-pacifico font-bold text-xl 2xl:text-3xl"><span class="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent px-2">Faris Syahzani</span></h2>
+    </a>
+    <ul class="flex justify-around w-80 2xl:w-96 m-auto lg:mx-0 md:mx-0 font-semibold 2xl:font-bold cursor-pointer">
+      <a class="inline-block w-1/3 py-4 2xl:py-5 transition bg-amber-300 text-slate-900 hover:bg-amber-300 hover:text-slate-900" href="index.html"><li class="w-full h-full text-inter text-sm 2xl:text-base text-center ">HOME</li></a>
+      <a class="inline-block w-1/3 py-4 2xl:py-5 transition text-white hover:bg-amber-300 hover:text-slate-900" href="about.html"><li class="w-full h-full text-inter text-sm 2xl:text-base text-center ">ABOUT</li></a>
+      <a class="inline-block w-1/3 py-4 2xl:py-5 transition text-white hover:bg-amber-300 hover:text-slate-900" href="project.html"><li class="w-full h-full text-inter text-sm 2xl:text-base  text-center ">PROJECT</li></a>
     </ul>
   </nav>
 
+  <div class="h-[100vh] text-slate-200 flex bg-fixed bg-cover bg-bottom mt-5" style="background-image: url(img/main-bg.jpg);">
+    <div class="w-full h-full m-auto backdrop-blur-md bg-slate-900/40 flex justify-around  flex-wrap flex-row">
+      <div class="px-10 pl-14 2xl:px-16 w-1/2 my-auto">
+        <h1 class="text-5xl 2xl:text-8xl lg:text-6xl font-semibold font-pacifico"><span class="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent pr-2">Faris Syahzani</span></h1>
+        <p class="font-sans font-semibold text-lg 2xl:text-4xl lg:text-3xl mt-8 2xl:mt-10 mb-4">Hi, Welcome to my Personal Website!</p>
+        <p class="font-sans  text-lg 2xl:text-3xl 2xl:leading-10 lg:text-2xl mt-8">I am <a class="underline hover:text-amber-300" href="about.html">Faris Rafie Syahzani</a> and I'm currently a student at <a class="underline hover:text-amber-300" target="_blank" href="http://www.sman1bekasi.sch.id/">SMAN 1 Kota Bekasi</a>, West Java, Indonesia. This website is where I am going to share my experience, idea, thought, and also my project. </p>
+        <div class="mt-12 mb-10 w-52 2xl:translate-x-2 2xl:w-72 flex items-start justify-between ">
+          <a href="https://instagram.com/farisyahzani?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa fa-instagram hover:scale-110 transition cursor-pointer 2xl:scale-150" style="font-size:25px "></i></a>
+          <a href="https://www.youtube.com/channel/UC9G2DW5fUCyVje-57kVxHJw" target="_blank"><i class="fa fa-youtube-play hover:scale-110 transition cursor-pointer 2xl:scale-150" style="font-size:25px "></i></a>
+          <a href="https://github.com/farisyahz" target="_blank"><i class="fa fa-github hover:scale-110 transition cursor-pointer 2xl:scale-150" style="font-size:25px "></i></a>
+          <a href="mailto:farisyahzani6@gmail.com" alt="email" ><i class="fa fa-envelope hover:scale-110 transition cursor-pointer 2xl:scale-150" style="font-size:25px" ></i></a>
+        </div>
+        <a class="block text-center mt-4 2xl:mt-6 px-5 2xl:px-10 2xl:py-8 py-5 bg-white/10 mix-blend-screen rounded-md text-inter text-2xl 2xl:text-3xl hover:scale-105 transition duration-500" href="#first-post">Scroll to see my blog ⬇️</a>
+      </div>
+
+      <div  class="w-[500px] 2xl:w-[800px] h-[70vh] m-auto  transition duration-500 mix-blend-screen rounded-3xl bg-white/20 overflow-hidden">
+        <img class="w-full mx-auto h-2/3 object-cover mb-5" src="img/handsant_auto.jpg" alt="Handsanitizer">
+        <p class="px-5 2xl:px-10 text-sans text-lg lg:text-xl 2xl:text-3xl">I love to create stuff, and these are some of the project that I have worked on.</p>
+        <a class="inline-block ml-5 2xl:ml-10 mt-4 2xl:mt-6 px-5 2xl:px-10 2xl:py-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-md hover:scale-105 transition duration-500 font-semibold text-inter 2xl:text-2xl" href="project.html">See My Projects!</a>
+      </div>
+    </div>
+  </div>
+
   <main class="mt-10 flex flex-wrap flex-row justify-between w-5/6 min-w-72 mx-auto gap-5  md:w-5/6 lg:w-[900px] 2xl:w-[1200px]">
 
-    <div class="bg-white w-full md:w-[48%] lg:flex lg:w-full lg:h-[250px] h-[400px] shadow-lg rounded-md overflow-hidden relative hover:scale-105 transition duration-500 group">
+    <div id="first-post" class="bg-white w-full md:w-[48%] lg:flex lg:w-full lg:h-[250px] h-[400px] shadow-lg rounded-md overflow-hidden relative hover:scale-105 transition duration-500 group">
       <a class="inline-block absolute bg-transparent w-full h-full z-10"" href="post/post1.html"></a>
       <img class="w-full lg:w-4/5 lg:h-full lg:float-left h-2/5 overflow-hidden object-cover" src="img/livestream.png" alt="Started livestreaming">
       <div class="p-5 lg:px-7 lg:my-auto">

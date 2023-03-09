@@ -621,6 +621,14 @@ video {
   margin-top: 2rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
 .block {
   display: block;
 }
@@ -711,6 +719,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .min-w-72 {
@@ -1116,6 +1128,10 @@ video {
     margin-top: 6rem;
   }
 
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .md\:inline-block {
     display: inline-block;
   }
@@ -1202,6 +1218,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
   .lg\:fixed {
     position: fixed;
   }
@@ -1222,6 +1242,18 @@ video {
 
   .lg\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:inline-block {
@@ -1248,6 +1280,10 @@ video {
     height: 100%;
   }
 
+  .lg\:h-\[100vh\] {
+    height: 100vh;
+  }
+
   .lg\:w-4\/5 {
     width: 80%;
   }
@@ -1266,6 +1302,10 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:-translate-y-52 {
@@ -1288,6 +1328,15 @@ video {
   .lg\:px-7 {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:pl-14 {
+    padding-left: 3.5rem;
   }
 
   .lg\:text-2xl {
@@ -1328,6 +1377,20 @@ video {
 }
 
 @media (min-width: 1536px) {
+  @media (min-width: 1024px) {
+    .\32xl\:lg\:mt-5 {
+      margin-top: 1.25rem;
+    }
+
+    .\32xl\:lg\:h-\[250px\] {
+      height: 250px;
+    }
+  }
+
+  .\32xl\:visible {
+    visibility: visible;
+  }
+
   .\32xl\:ml-10 {
     margin-left: 2.5rem;
   }
@@ -1338,6 +1401,26 @@ video {
 
   .\32xl\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .\32xl\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .\32xl\:block {
+    display: block;
+  }
+
+  .\32xl\:h-\[350px\] {
+    height: 350px;
+  }
+
+  .\32xl\:h-\[300px\] {
+    height: 300px;
+  }
+
+  .\32xl\:h-\[320px\] {
+    height: 320px;
   }
 
   .\32xl\:w-72 {
@@ -1362,6 +1445,14 @@ video {
 
   .\32xl\:w-\[800px\] {
     width: 800px;
+  }
+
+  .\32xl\:w-\[1300px\] {
+    width: 1300px;
+  }
+
+  .\32xl\:w-\[1400px\] {
+    width: 1400px;
   }
 
   .\32xl\:translate-x-2 {
@@ -1433,6 +1524,11 @@ video {
 
   .\32xl\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .\32xl\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 

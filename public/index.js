@@ -4,7 +4,8 @@ const img_list = [
   'handsant_auto.jpg',
   'tugasify_1.jpg',
   'snake-game.png',
-  'arduino-handsant.jpg'
+  'arduino-handsant.jpg',
+  'tugasify-bg-white.jpg'
 ]
 
 const shuffle_img = () =>{
